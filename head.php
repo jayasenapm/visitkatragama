@@ -11,6 +11,9 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="css/ihover.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Staatliches" rel="stylesheet">
+
 </head>
 <body>
   <!-- bootstrap navbar

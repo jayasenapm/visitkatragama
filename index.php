@@ -21,38 +21,38 @@
   </ul>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img  class="kenburns-bottom-left" src="http://4.bp.blogspot.com/-6joaH4qtIkM/U8LpbN0EsAI/AAAAAAAA3cw/nf2m-ii2mLo/s1600/Kataragama+Perahera+2014++(1).jpg"  alt="visit bandarawela" width="100%" >
-      <div class="carousel-caption">
+      <img  class="kenburns-bottom-left" src="https://images.pexels.com/photos/915972/pexels-photo-915972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"  alt="visit bandarawela" width="100%" >
+      <div class="carousel-caption fadeInDown">
         <h1>VISIT BANDARAWELA</h1>
         <p>We are welcome to Bandarawela</p>
       </div>   
     </div>
     <div class="carousel-item">
-      <img class="kenburns-right" src="images/slide2.jpg"  alt="visit bandarawela" width="100%" >
-      <div class="carousel-caption">
+      <img class="kenburns-right" src="https://images.pexels.com/photos/450441/pexels-photo-450441.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"  alt="visit bandarawela" width="100%" >
+      <div class="carousel-caption fadeInDown">
         <h1>VISIT BANDARAWELA</h1>
         <p>We are welcome to Bandarawela</p>
       </div>   
     </div>
     <div class="carousel-item">
-      <img class="kenburns-right" src="images/slide3.jpg" alt="visit bandarawela" width="100%"  >
-      <div class="carousel-caption" width="100%">
+      <img class="kenburns-right" src="https://images.pexels.com/photos/1007657/pexels-photo-1007657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="visit bandarawela" width="100%"  >
+      <div class="carousel-caption fadeInDown" width="100%">
         <h1>VISIT BANDARAWELA</h1>
         <p>We are welcome to Bandarawela</p>
       </div>   
     </div>
     <div class="carousel-item">
-      <img class="kenburns-bottom-left" src="images/slide4.jpg" alt="visit bandarawela" width="100%"  >
-      <div class="carousel-caption" width="100%">
+      <img class="kenburns-bottom-left" src="https://images.pexels.com/photos/321526/pexels-photo-321526.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="100%"  >
+      <div class="carousel-caption fadeInDown" width="100%">
         <h1>VISIT BANDARAWELA</h1>
         <p>We are welcome to Bandarawela</p>
       </div>   
     </div>
   </div>
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+  <a class="carousel-control-prev myprv" href="#demo" data-slide="prev">
     <span class="carousel-control-prev-icon"></span>
   </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
+  <a class="carousel-control-next mynext" href="#demo" data-slide="next">
     <span class="carousel-control-next-icon"></span>
   </a>
 </div>
@@ -61,6 +61,44 @@
 <!--main-contaner section start here--> 
 <div class="container main-contaner"><center><h1>Visit Bandarawela</h1></center>
 <p>Bandarawela is the second largest town in the Badulla District which is 32 km away from Badulla. Bandarawela is 200 km away from Colombo and about 125 km away from Kandy, the two capital cities of Sri Lanka</p>
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="card text-center">
+      <div class="card-block">
+        <img src="https://images.pexels.com/photos/547119/pexels-photo-547119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-fluid">
+        <div class="card-title">My Title</div>
+        <div class="card-text">
+          This is my palse...
+        </div>
+        <a href="" class="btn btn-success">Click Here</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="card text-center">
+      <div class="card-block">
+        <img src="https://images.pexels.com/photos/547119/pexels-photo-547119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-fluid">
+        <div class="card-title">My Title</div>
+        <div class="card-text">
+          This is my palse...
+        </div>
+        <a href="" class="btn btn-success">Click Here</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="card text-center">
+      <div class="card-block">
+        <img src="https://images.pexels.com/photos/378152/pexels-photo-378152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-fluid">
+        <div class="card-title">My Title</div>
+        <div class="card-text">
+          This is my palse...
+        </div>
+        <a href="" class="btn btn-success">Click Here</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="row mybox ">
   
