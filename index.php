@@ -1,19 +1,6 @@
 <?php include 'head.php';?>
 
-  <!-- carousel slide -->
-<div id="demo" class="carousel slide" data-ride="carousel">
- <div class="logo">
-   <h1>VISIT<span>KATARAGAMA</span></h1>
- </div> 
-<div class="transpernt-menu">
-  <ul>
-    <li><a href="">HOME</a></li>
-     <li><a href="">ABOUT US</a></li>
-      <li><a href="">ATRACTIONS</a></li>
-       <li><a href="">CONTACT US</a></li>
-        
-  </ul>
-</div>
+
   <ul class="carousel-indicators">
     <li data-target="#demo" data-slide-to="0" class="active"></li>
     <li data-target="#demo" data-slide-to="1"></li>
@@ -23,22 +10,22 @@
     <div class="carousel-item active">
       <img  class="kenburns-bottom-left" src="https://images.pexels.com/photos/915972/pexels-photo-915972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"  alt="visit bandarawela" width="100%" >
       <div class="carousel-caption fadeInDown">
-        <h1>VISIT BANDARAWELA</h1>
-        <p>We are welcome to Bandarawela</p>
+        <h1>VISIT KATARAGAMA</h1>
+        <p>We are welcome to Kataragama</p>
       </div>   
     </div>
     <div class="carousel-item">
       <img class="kenburns-right" src="https://images.pexels.com/photos/450441/pexels-photo-450441.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"  alt="visit bandarawela" width="100%" >
-      <div class="carousel-caption fadeInDown">
-        <h1>VISIT BANDARAWELA</h1>
-        <p>We are welcome to Bandarawela</p>
-      </div>   
+       <div class="carousel-caption fadeInDown">
+        <h1>VISIT KATARAGAMA</h1>
+        <p>We are welcome to Kataragama</p>
+      </div>    
     </div>
     <div class="carousel-item">
       <img class="kenburns-right" src="https://images.pexels.com/photos/1007657/pexels-photo-1007657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="visit bandarawela" width="100%"  >
-      <div class="carousel-caption fadeInDown" width="100%">
-        <h1>VISIT BANDARAWELA</h1>
-        <p>We are welcome to Bandarawela</p>
+       <div class="carousel-caption fadeInDown">
+        <h1>VISIT KATARAGAMA</h1>
+        <p>We are welcome to Kataragama</p>
       </div>   
     </div>
     <div class="carousel-item">
@@ -59,13 +46,15 @@
 
 <!-- end carousel slide -->
 <!--main-contaner section start here--> 
-<div class="container main-contaner"><center><h1>Visit Bandarawela</h1></center>
+<div class="container main-contaner"><center><h1>Visit Kataragama</h1></center>
 <p>Bandarawela is the second largest town in the Badulla District which is 32 km away from Badulla. Bandarawela is 200 km away from Colombo and about 125 km away from Kandy, the two capital cities of Sri Lanka</p>
 <div class="row">
-  <div class="col-sm-6 col-md-4">
+  <div class="col-sm-6 col-md-4 ">
     <div class="card text-center">
       <div class="card-block">
-        <img src="https://images.pexels.com/photos/547119/pexels-photo-547119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-fluid">
+        <div class="item">
+        <a href=""><img src="https://images.pexels.com/photos/547119/pexels-photo-547119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-fluid"></a>
+      </div>
         <div class="card-title">My Title</div>
         <div class="card-text">
           This is my palse...
@@ -77,7 +66,9 @@
   <div class="col-sm-6 col-md-4">
     <div class="card text-center">
       <div class="card-block">
+        <div class="item">
         <img src="https://images.pexels.com/photos/547119/pexels-photo-547119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-fluid">
+      </div>
         <div class="card-title">My Title</div>
         <div class="card-text">
           This is my palse...
@@ -89,7 +80,56 @@
   <div class="col-sm-6 col-md-4">
     <div class="card text-center">
       <div class="card-block">
+        <div class="item">
         <img src="https://images.pexels.com/photos/378152/pexels-photo-378152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-fluid">
+      </div>
+        <div class="card-title">My Title</div>
+        <div class="card-text">
+          This is my palse...
+        </div>
+        <a href="" class="btn btn-success">Click Here</a>
+      </div>
+    </div>
+  </div>
+   <div class="col-sm-6 col-md-4">
+    <div class="card text-center">
+      <div class="card-block">
+        <div class="item">
+        <a href=""><img src="https://images.pexels.com/photos/547119/pexels-photo-547119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-fluid"></a>
+      </div>
+        <div class="card-title">My Title</div>
+        <div class="card-text">
+          This is my palse...
+        </div>
+        <a href="" class="btn btn-success">Click Here</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="card text-center">
+      <div class="card-block">
+        
+           <div class="item">
+          <img src="https://images.pexels.com/photos/547119/pexels-photo-547119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-fluid">
+        </div>
+
+        
+       
+        
+        <div class="card-title">My Title</div>
+        <div class="card-text">
+          This is my palse...
+        </div>
+        <a href="" class="btn btn-success">Click Here</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="card text-center">
+      <div class="card-block">
+        <div class="item">
+        <img src="https://images.pexels.com/photos/378152/pexels-photo-378152.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-fluid">
+      </div>
         <div class="card-title">My Title</div>
         <div class="card-text">
           This is my palse...
@@ -100,154 +140,121 @@
   </div>
 </div>
 
-<div class="row mybox ">
-  
-	<div class="col-sm-4">
-  <center>
-       <div class="ih-item square colored effect7"><a href="#">
-        <div class="img"><img src="images/visit-bandarawela1.jpg" width="100%" alt="img" ></div>
-        <div class="info">
-          <h3></h3>
-          <p></p>
-        </div></a>
+<br>
 
-      </div>
-    </center>
- 
-  </div>
 
-  <div class="col-sm-4 ">
- 
-   
-    <center>
-       <div class="ih-item square colored effect7"><a href="#">
-        <div class="img"><img src="https://i.ytimg.com/vi/6Q8yvooVYdc/hqdefault.jpg" alt="img" ></div>
-        <div class="info">
-          <h3></h3>
-          <p></p>
-        </div></a>
-
-      </div>
-    </center>
-   
-
-    
- 
-  </div>
-	 <div class="col-sm-4 ">
- 
-  <center>
-       <div class="ih-item square colored effect7"><a href="#">
-        <div class="img"><img src="https://i.ytimg.com/vi/lZrJG7dACNs/hqdefault.jpg" alt="img" ></div>
-        <div class="info">
-          <h3></h3>
-          <p></p>
-        </div></a>
-
-      </div>
-    </center>
- 
-  </div>
-	
-</div>
-
-<div class="row mybox">
-  <div class="col-sm-4">
- 
-   
-    <center>
-       <div class="ih-item square colored effect7"><a href="#">
-        <div class="img"><img src="https://i.ytimg.com/vi/e3qDmHZNgCE/hqdefault.jpg" alt="img" ></div>
-        <div class="info">
-          <h3></h3>
-          <p></p>
-        </div></a>
-
-      </div>
-     
-    </center>
-    <div class="img-text text-center"></div>
-
-    
- 
-  </div>
-   <div class="col-sm-4 ">
- 
-  <center>
-       <div class="ih-item square colored effect7"><a href="#">
-        <div class="img"><img src="https://1.bp.blogspot.com/-MEDsHp7TjCY/VaDgehoeMsI/AAAAAAAAAaY/vD56Ffm3HZo/s1600/DSC_0455.jpg" alt="img" ></div>
-        <div class="info">
-          <h3></h3>
-          <p></p>
-        </div></a>
-
-      </div>
-    </center>
- 
-  </div>
-  <div class="col-sm-4 ">
- 
-  <center>
-       <div class="ih-item square colored effect7"><a href="#">
-        <div class="img"><img src="https://www.elephanttravels.com/wp-content/uploads/2016/06/Nuwara-eliya-tea-estate-sri-lanka.jpg" alt="img" ></div>
-        <div class="info">
-          <h3></h3>
-          <p></p>
-        </div></a>
-
-      </div>
-    </center>
- 
-  </div>
-</div>
 </div>
 <!-- end main content-->
 <!-- image parallax effect -->
 <div class="row parallax">
-  
+  <center>
+    
+<div class="container main-contaner"><center><h1>Kataragama</h1></center>
+  </center>
+ 
 </div>
 <!-- end of parallax effect -->
-
-<div class="container">
+<!--destanation section -->
+<div class="container destanation">
+  <div class="container main-contaner"><center><h1>Most Popular Destination</h1></center>
   <div class="row">
-<!--
-  <h2>Locations  Table</h2>
+ <div class="col-sm-4 col-md-3">
+    <div class="card text-center">
+      <div class="card-block">
+        <div class="item1">
+        <a href=""><img src="https://images.pexels.com/photos/547119/pexels-photo-547119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-fluid"></a>
+
+         <button class="btn mybtn"><div class="txt">Button</div></button>
+      </div>
+        <div class="card-title">My Title</div>
+        <div class="card-text">
+          This is my palse...
+        </div>
        
-  <table class="table-responsive" width="100%">
-    <thead>
-      <tr>
-        <th width="50%">Plase</th>
-        <th width="20%">Date</th>
-        <th width="20%">Location</th>
-        <th width="10%">Book</th>
-      </tr>
-    </thead>
-    <tbody>
-     
-      <tr>
-        <td><img src="images/visit-bandarawela1.jpg" width="100px"></td>
-        <td>2018.12.12</td>
-        <td>Bandarawela</td>
-        <td><button type="button" class="btn btn-primary">Book Now</button></td>
-      </tr>
-      <tr>
-        <td><img src="images/visit-bandarawela1.jpg" width="100px"></td>
-        <td>2018.12.12</td>
-        <td>Bandarawela</td>
-        <td><button type="button" class="btn btn-primary">Book Now</button></td>
-      </tr>
-      <tr>
-        <td><img src="images/visit-bandarawela1.jpg" width="100px"></td>
-        <td>2018.12.12</td>
-        <td>Bandarawela</td>
-        <td><button type="button" class="btn btn-primary">Book Now</button></td>
-      </tr>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-3">
+    <div class="card text-center">
+      <div class="card-block">
+        <div class="item1">
+        <a href=""><img src="https://images.pexels.com/photos/547119/pexels-photo-547119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-fluid"></a>
+
+         <button class="btn mybtn"><div class="txt">Button</div></button>
+      </div>
+        <div class="card-title">My Title</div>
+        <div class="card-text">
+          This is my palse...
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-3">
+    <div class="card text-center">
+      <div class="card-block">
+        <div class="item1">
+        <a href=""><img src="https://images.pexels.com/photos/547119/pexels-photo-547119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-fluid"></a>
+
+         <button class="btn mybtn"><div class="txt">Button</div></button>
+      </div>
+        <div class="card-title">My Title</div>
+        <div class="card-text">
+          This is my palse...
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4 col-md-3">
+    <div class="card text-center">
+      <div class="card-block">
+        <div class="item1">
+        <a href=""><img src="https://images.pexels.com/photos/547119/pexels-photo-547119.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="img-fluid"></a>
+
+         <button class="btn mybtn"><div class="txt">Button</div></button>
+      </div>
+        <div class="card-title">My Title</div>
+        <div class="card-text">
+          This is my palse...
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- end of destanation-->
+<br>
+<!--start Subscribe-->
+<div class="Subscribe">
+  <center>
+    <div class="container main-contaner Subscrib-txt "><h1>Join Our Subscribe List</h1></div>
     
-    </tbody>
-  </table>
--->
+    <section class="home-newsletter">
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+  <div class="single">
+    
+  <div class="input-group">
+         <input type="text" class="form-control" placeholder="Enter your email">
+         <span class="input-group-btn">
+         <button class="btn btn-theme" type="submit">Subscribe</button>
+         </span>
+          </div>
+  </div>
 </div>
 </div>
+</div>
+</section>
+  
+  </center>
+ 
+
+</div>
+<!--end of Subscribe -->
 <?php include 'footer.php';?>
 
 

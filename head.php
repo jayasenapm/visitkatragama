@@ -8,6 +8,7 @@
 	<title>visit bandarawela</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" >
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="css/ihover.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">
@@ -16,34 +17,24 @@
 
 </head>
 <body>
-  <!-- bootstrap navbar
-<nav class="navbar navbar-expand-lg navbar-light mynav">
-  <a class="navbar-brand gg" href="#">Visit <span>Bandarawela</span> </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse " id="navbarColor03">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Gallery</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
-      </li>
-    </ul>
-    
-  </div>
-</nav>
-  -->
-  <!--coustom menu -->
 
 
 
-  <!--end menu-->
+
+    <!-- carousel slide -->
+<div id="demo" class="carousel slide" data-ride="carousel">
+ 
+ <div class="logo">
+   <img src="images/logo.png" width="70%">
+ </div> 
+
+<div class="transpernt-menu">
+  <ul>
+    <li><a href="">HOME</a></li>
+     <li><a href="">ABOUT US</a></li>
+      <li><a href="">ATRACTIONS</a></li>
+       <li><a href="">CONTACT US</a></li>
+        
+  </ul>
+</div>
+
