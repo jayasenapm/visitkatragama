@@ -18,7 +18,9 @@
 </head>
 <body>
  
-
+<div class="logo">
+   <img src="images/logo.png" width="70%">
+ </div>
     
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -28,9 +30,7 @@
   <a href="#">Contact</a>
 </div>
 <div class="mob-menu">
-<div class="logo">
-   <img src="images/logo.png" width="70%">
- </div>
+
 
 
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>

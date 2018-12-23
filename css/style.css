@@ -16,28 +16,14 @@ background: rgba(0,0,0,0.4);
 	float: left;
 }
 
-.logo{
-	float: left;
-	padding-right: 10%;
-	padding-left: 5%;
-	font-size: 36px;
-	font-weight: 400;
-	color: #299AEE;
-	font-family: 'Finger Paint', cursive;
-	-webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: black;
-}
+
 .logo{
 	position: absolute;
 	top: 20px;
 	left: 20px;
 	z-index: 1;
 }
-.logo span{
-	color: #479655;
-	font-style: italic;
 
-}
 .main-menu ul{
 	padding-top: 10px;
 	list-style: none;
@@ -459,19 +445,23 @@ color: #fff;
 	opacity: .5;
 }
 .mob-menu{
-	height: 200px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	
+	z-index: 3;
 }
 .sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
+  
+  position: absolute;
+  z-index: 4;
   top: 0;
   left: 0;
   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  
+  
 }
 
 .sidenav a {
@@ -495,15 +485,29 @@ color: #fff;
   margin-left: 50px;
 }
 
-
+.carousel-control-prev-icon.mob-prv{
+	color: black;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	.lrgmenu{
 	display: none;
 }
-
-
+.mob-menu{
+	display: block;
+}
+.carousel-control-prev.myprv{
+	display: none;
+}
+.carousel-control-next.mynext{
+	display: none;
+}
+.carousel.slide{
+	
+	background-size: cover;
+	align-items: center;
+}
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -511,11 +515,17 @@ color: #fff;
 .lrgmenu{
 	display: none;
 }
+.carousel-control-prev.myprv{
+	display: none;
+}
+.carousel-control-next.mynext{
+	display: none;
+}
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-.mob-menu{
+.lrgmenu{
 	display: none;
 }
 
