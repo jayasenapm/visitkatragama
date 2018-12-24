@@ -1,33 +1,23 @@
 
 <?php include 'head.php';?>
-
-<body>
+<!--main-contaner section start here-->
+<div class="destination ">
   
 
+</div> 
+<br>
+<div class="container main-contaner ">
 
+<div class="row">
 
-
-
-
-
-    <div class="container">
-        <div class="col-md-12"> 
-         <br />
-         <h2 align="center"> Destination </h2>
-         <br />
-            
-
-            <div class="col-md-12" style="">
-          
-                <div class="row filter_data">
-                    <?php
+<?php
 
 //fetch_data.php
 
 include('database_connection.php');
 
-
- $query = "SELECT * FROM destination WHERE Distination = 'Bandarawela'";
+$dname='';
+ $query = "SELECT * FROM destination WHERE Distination = 'Mahiyanganaya'";
  
 
  $statement = $connect->prepare($query);
@@ -39,50 +29,56 @@ include('database_connection.php');
  {
   foreach($result as $row)
   {
-
-?>
-
-<div class="col-md-4 ">
-
-
-      <center>
-       <div class="ih-item square colored effect7"><a href="#">
-        <div class="img"><img src="uploads/<?php echo $row['Thumb'] ?>" alt="img" ></div>
-        <div class="info">
-          <h3><?php echo $row['DName'] ?></h3>
-          <p></p>
-        </div>
-
+$dname=$row['DName'];
+    ?>
+<div class="col-sm-6 col-md-4 ">
+    <div class="card text-center">
+      <div class="card-block">
+        <a href="">
+           <div class="item">
+        <a href="Detail.php?dname=<?php echo $dname ?>" ><img src="http://localhost/dashboard/TrawelToElla2/TrawelToElla/uploads/<?php echo $row['Thumb'] ?>" alt="" class="img-fluid"></a>
       </div>
-      <a href="Detail.php?dname=<?php echo $row['DName'];?> "><h3><?php echo $row['DName'] ?></h3></a>
-    </center>
 
-
-
- </a>
-  
-
- 
+        </a>
+       
+        <div class="card-title"><?php echo $row['DName'] ?></div>
+        <div class="card-text">
+          This is my palse...
+        </div>
+        <a href="" class="btn btn-success">Click Here</a>
+      </div>
+    </div>
   </div>
-    
 
 
 
-<?php
-}
+    <?php
+   
+  }
  }else
  {
-  echo '<h3>No Data Found</h3>';
+  $output = '<h3>No Data Found</h3>';
  }
  
 
+
 ?>
 
-             </div>
-            </div>
-        </div>
 
-    </div>
+
+
+  
+  
+
+ 
+
+</div>
+
+<br>
+
+
+</div>
+<!-- end main content-->
 
 
 

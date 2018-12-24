@@ -1,5 +1,10 @@
 
 <?php include 'head.php';?>
+<div class="destination ">
+  
+
+</div>
+
 <hr>
 <div class="container">
     <div class="row">

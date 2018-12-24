@@ -15,6 +15,10 @@
   <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Staatliches" rel="stylesheet">
 
+
+<link href="https://fonts.googleapis.com/css?family=Frijole|Rakkas|Spicy+Rice" rel="stylesheet">
+
+
 </head>
 <body>
  
@@ -45,7 +49,7 @@ function closeNav() {
 }
 </script>
  <!-- carousel slide -->
-<div id="demo" class="carousel slide" data-ride="carousel">
+
 <div class="lrgmenu">
  <div class="logo">
    <img src="images/logo.png" width="70%">
@@ -53,10 +57,10 @@ function closeNav() {
 
 <div class="transpernt-menu">
   <ul>
-    <li><a href="">HOME</a></li>
-     <li><a href="">ABOUT US</a></li>
-      <li><a href="">ATRACTIONS</a></li>
-       <li><a href="">CONTACT US</a></li>
+    <li><a href="index.php">HOME</a></li>
+    
+      <li><a href="Destination.php">ATRACTIONS</a></li>
+       <li><a href="contact.php">CONTACT US</a></li>
         
   </ul>
 </div>

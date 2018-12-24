@@ -119,22 +119,22 @@ background: rgba(0,0,0,0.4);
 
 /*carousel*/
 .carousel.slide{
-	height: 700px;
+	height: 600px;
 	overflow: hidden;
 	align-items: center;
 }
 .carousel-control-prev.myprv{
-	background: green;
+
 	opacity: 1;
 	height: 50px;
 	width: 50px;
 	position: absolute;
-	top: 400px;
+	top: 390px;
 	left: 90%;
 	border-radius: 10px;
 }
 .carousel-control-next.mynext{
-	background: green;
+	
 	opacity: 1;
 	height: 50px;
 	width: 50px;
@@ -142,6 +142,7 @@ background: rgba(0,0,0,0.4);
 	top: 470px;
 	left: 90%;
 	border-radius: 10px;
+  padding-top: 10px;
 }
 .carousel-caption{
 	
@@ -160,11 +161,15 @@ background: rgba(0,0,0,0.4);
 -ms-filter: brightness(70%);
 }
 .carousel-caption h1{
-	font-size: 75px;
-	color: #00bbd7;
-	font-family: 'Staatliches', cursive;
+	font-size: 55px;
+	color: white;
+    font-family: 'Rakkas', cursive;
+
+    font-family: 'Frijole', cursive;
+
+    font-family: 'Spicy Rice', cursive;
 	-webkit-text-stroke-width: 2px;
-   -webkit-text-stroke-color: white;
+   -webkit-text-stroke-color: black;
 }
 /*key frame animation*/
 .fadeInDown {
@@ -451,8 +456,7 @@ color: #fff;
 	
 	z-index: 3;
 }
-.sidenav {
-  
+.sidenav { 
   position: absolute;
   z-index: 4;
   top: 0;
@@ -460,8 +464,7 @@ color: #fff;
   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
-  
-  
+  display: none;  
 }
 
 .sidenav a {
@@ -488,7 +491,14 @@ color: #fff;
 .carousel-control-prev-icon.mob-prv{
 	color: black;
 }
-
+.destination{
+ background-image: url(https://images.pexels.com/photos/368893/pexels-photo-368893.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  height: 300px;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position:center;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 	.lrgmenu{
@@ -508,6 +518,9 @@ color: #fff;
 	background-size: cover;
 	align-items: center;
 }
+.sidenav{
+  display: block;
+}
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -521,6 +534,7 @@ color: #fff;
 .carousel-control-next.mynext{
 	display: none;
 }
+
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -539,6 +553,12 @@ color: #fff;
 .lrgmenu{
 	display: block;
 }
+.carousel-control-prev.myprv{
+  display: block;
+}
+.carousel-control-next.mynext{
+  display: block;
+}
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -546,4 +566,28 @@ color: #fff;
 	.mob-menu{
 	display: none;
 }
+.carousel-control-prev.myprv{
+  display: block;
+}
+.carousel-control-next.mynext{
+  display: block;
+}
+}
+/*light box*/
+.gal-item img{
+  padding: 5px;
+}
+.title-2 h2{
+  font-family: 'Staatliches', cursive;
+ 
+  border-bottom: 4px solid green;
+  display: inline-block;
+}
+.title-2 p{
+  font-family: 'Staatliches', cursive;
+ 
+  
+}
+.wi{
+  width: 100%;
 }
