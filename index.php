@@ -48,6 +48,32 @@
 <!--main-contaner section start here--> 
 <div class="container main-contaner"><center><h1>Visit Kataragama</h1></center>
 <p>Bandarawela is the second largest town in the Badulla District which is 32 km away from Badulla. Bandarawela is 200 km away from Colombo and about 125 km away from Kandy, the two capital cities of Sri Lanka</p>
+</div>
+<div class="container-fluid aa ">
+  <div class="row">
+    <div class="col-md-6 tile">
+      <img src="https://images.pexels.com/photos/1046896/pexels-photo-1046896.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="100%">
+    </div>
+    <div class="col-md-3 tile">
+      <img src="https://images.pexels.com/photos/1035429/pexels-photo-1035429.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="100%">
+    </div>
+    <div class="col-md-3 tile">
+      <img src="https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="100%">
+    </div>
+    <div class="col-md-3 tile">
+      <img src="https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="100%">
+    </div>
+    <div class="col-md-3 tile">
+      <img src="https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="100%">
+    </div>
+    <div class="col-md-6 tile">
+      <img src="https://images.pexels.com/photos/1046896/pexels-photo-1046896.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="100%">
+    </div>
+  </div>
+
+</div>
+
+<div class="container">
 <div class="row">
   <div class="col-sm-6 col-md-4 ">
     <div class="card text-center">
